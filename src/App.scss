@@ -401,7 +401,6 @@ h6 {
   }
 
   .to-essentials {
-    display: flex;
     flex-direction: row;
     justify-content: center;
     padding: 0.5rem;
@@ -817,7 +816,6 @@ h6 {
     }
 
     #outlined-number {
-      font-family: 'archia';
       font-size: 0.7rem !important;
       font-weight: 400;
       font-family: 'archia';
@@ -858,7 +856,7 @@ h6 {
     // max-height: fit-content;
     // height: 0.5rem;
     width: 100px;
-    margin: 0.7rem 0.7rem 0.2rem 0.7rem;
+    margin: 0.7rem 0.7rem 0.2rem;
   }
 }
 
@@ -1393,7 +1391,7 @@ abbr {
 
 .table-fineprint {
   text-align: right;
-  margin: 0 0 0 0;
+  margin: 0;
   color: $gray-mid;
   margin-bottom: 0.25rem;
   margin-right: 0.25rem;
@@ -2060,7 +2058,6 @@ table {
 
 .timeseries-header {
   h1 {
-    color: $gray-dark;
     margin: 0;
     margin-bottom: 2rem;
     text-align: center;
@@ -3840,7 +3837,7 @@ body.modal-open {
           color: #6c757d;
           font-weight: 900;
           text-transform: uppercase;
-          padding: 20px 0 20px 0;
+          padding: 20px 0;
         }
 
         .chart-content {
@@ -4379,7 +4376,7 @@ body.modal-open {
     input{
       // min-width: 8rem;
       // height: max-content;
-      margin: 0.1rem 0.1rem 0.1rem 0.1rem;
+      margin: 0.1rem;
     }
 
     h5{
